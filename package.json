@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes.webdriverio": "2.3.1"
+    "@applitools/eyes.webdriverio": "2.5.1"
   }
 }

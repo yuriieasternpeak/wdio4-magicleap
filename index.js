@@ -22,9 +22,9 @@ async function main() {
     const R3 = {left: 0, top: 0, width: 1920, height: 937};
     await eyes.checkRegionBy(R3, 'Main Page', 5);
 
-    await eyes.checkRegionBy(By.xPath('//*[@id="home-hero"]/h1'), '2', 5);
+    await eyes.checkRegionBy(By.xPath(`//*[@id='home-hero']//*[@data-id='hero-heading']`), '2', 5);
 
-    await eyes.checkElementBySelector(By.xPath('//*[@id="menuItem_MagicLeapOne"]'), 5, '2');
+    await eyes.checkElementBySelector(By.xPath(`//*[@id='home-hero']`), 5, '2');
 
     await eyes.close(false);
 
